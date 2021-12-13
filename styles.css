@@ -1,0 +1,24 @@
+body
+{
+    color: rgb(73, 73, 73);
+}
+
+h1
+{
+    color: red;
+}
+
+h2
+{
+    color: rgb(116, 160, 243);
+}
+
+#lib-001
+{
+    color: maroon;
+}
+
+.para
+{
+    color: purple;
+}
