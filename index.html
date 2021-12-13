@@ -7,8 +7,25 @@
     <title>Component Library</title>
 </head>
 <body>
-    <h1>Perseus's Component Library</h1>
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
+
+<!-- CSS way 1, Style Tag 
+
+    <style>
+        body
+        {
+            color: red;
+        }
+    </style> -->
+
+    <!-- CSS way 2, Style Attribute
+    <h1 style="color: red">Perseus's Component Library</h1> -->
+
+    <!-- CSS way 3 :- External Link -->
+
+    <link href="styles.css" rel="stylesheet" />
+    
+    <h1 id="lib-001">Perseus's Component Library</h1>
+    <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
 
     
     <hr>
@@ -29,7 +46,7 @@
 
     <p>Normal Text. This is free flowing and it'll wrap at the end like a paragraph.</p>
 
-    <small>This is a relatively smaller text. </small>
+    <small class="para"></smallclass>This is a relatively smaller text. </small>
 
     <hr>
 
