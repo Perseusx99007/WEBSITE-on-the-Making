@@ -93,7 +93,7 @@ PerseusX99007
 Header
 ------
 
-![LOGO](https://www.freepnglogos.com/uploads/hacker-png/hacker-computer-icons-4.png)
+![LOGO](IMAGES/hero.svg)
 
 @Heading inside Hero
 ====================
