@@ -23,7 +23,14 @@ h2
     color: purple;
 } */
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,700;1,400&display=swap');
+/**Look into to BEM naming convention for CSS**/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+:root
+{
+    --primary-color: red;
+}
 
 body
 {
@@ -32,14 +39,40 @@ body
 
 /**CONTAINER**/
 
+/**padding: top right bottom left**/
+/**If padding is padding: 1rem 5rem, it applies 1rem padding to top and bottom and 5rem padding to left right and left**/
+
 .container
 {
-    padding-left: 1rem;
-    padding-right: 1rem;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
+    padding: 0rem 1rem;
 }
 
 .container-center
 {
     max-width: 600px;
     margin: auto;
+}
+
+/**LINKS**/
+
+.link
+{
+    text-decoration: none;
+    padding: 0.5rem 1rem;     /**Gives padding 0.5 to top and bottom and padding 1rem to left and right**/
+}
+
+.link-primary
+{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+
+.link-secondary
+{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
 }
