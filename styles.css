@@ -31,6 +31,7 @@ h2
 {
     --primary-color: #881337;
     --dark-grey: #6b7280;
+    --off-white: #d4d4d8;
 }
 
 body
@@ -152,3 +153,23 @@ hr
 {
     color: var(--primary-color);
 }
+
+/**Sections**/
+
+.section
+{
+    padding: 2rem;
+}
+
+.section h1
+{
+    text-align: center;
+}
+
+.ow
+{
+    background-color: var(--off-white);
+}
+
+/**Footer**/
+
