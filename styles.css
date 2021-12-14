@@ -29,7 +29,8 @@ h2
 
 :root
 {
-    --primary-color: #dc2626;
+    --primary-color: #881337;
+    --dark-grey: #6b7280;
 }
 
 body
@@ -124,4 +125,30 @@ hr
 .navigation .link-active
 {
     font-weight: bold;
+}
+
+/**Header**/
+
+.hero
+{
+    padding: 2rem;
+}
+
+.hero .hero-image
+{
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+
+.hero .hero-heading
+{
+    color: var(--dark-grey);
+    padding-top: 1rem;
+    text-align: center;
+}
+
+.hero .hero-heading .hero-heading-inverted
+{
+    color: var(--primary-color);
 }
