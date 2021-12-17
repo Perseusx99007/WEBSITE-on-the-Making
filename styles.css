@@ -31,7 +31,7 @@ h2
 {
     --primary-color: #881337;
     --dark-grey: #6b7280;
-    --off-white: #f3f4f6;
+    --off-white: #929292;
 }
 
 body
@@ -49,6 +49,8 @@ hr
 
 /**padding: top right bottom left**/
 /**If padding is padding: 1rem 5rem, it applies 1rem padding to top and bottom and 5rem padding to left right and left**/
+
+
 
 .container
 {
@@ -85,6 +87,16 @@ hr
 .padding4
 {
     padding-left: 1rem;
+}
+
+.padding5
+{
+    padding-top: 10rem;
+}
+
+.padding6
+{
+    padding-bottom: 10rem;
 }
 
 .margin-left
@@ -180,7 +192,7 @@ hr
 
 .hero .hero-image
 {
-    max-width: 500px;
+    max-width: 35rem;
     display: block;
     margin: auto;
 }
@@ -190,6 +202,7 @@ hr
     color: var(--dark-grey);
     padding-top: 1rem;
     text-align: center;
+    font-size: 3rem;
 }
 
 .hero .hero-heading .hero-heading-inverted
@@ -254,7 +267,8 @@ hr
     padding: 0.5rem;
 }
 
-.grid-skill {
+.grid-skill 
+{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     /* gap: 0.7rem; */
@@ -264,4 +278,41 @@ hr
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
+}
+
+.grid-skill-img2 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.grid-skill2 
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    /* gap: 0.7rem; */
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+
+.heading1
+{
+    font-size: 40px;
+}
+
+.heading2
+{
+    font-size: 20px;
+}
+
+.colour
+{
+    color: white;
 }
