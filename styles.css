@@ -99,6 +99,11 @@ hr
     padding-bottom: 10rem;
 }
 
+.padding7
+{
+    padding-top: 2rem;
+}
+
 .margin-left
 {
     margin-left: 10px;
@@ -232,7 +237,7 @@ hr
 .footer
 {
     background-color: var(--primary-color);
-    padding: 5rem 1rem 20rem 1rem;
+    padding: 2rem 1rem 3rem 1rem;
     text-align: center;
     color: white;
     border-top-right-radius: 1rem;
@@ -250,8 +255,8 @@ hr
 
 .footer-header
 {
-    padding-bottom: 5rem;
-    font-size: 2rem;
+    padding-bottom: 0rem;
+    font-size: 20px;
 }
 
 .lotte
@@ -295,7 +300,7 @@ hr
     /* gap: 0.7rem; */
     justify-content: center;
     margin: auto;
-    max-width: 700px;
+    max-width: 500px;
     width: 100%;
     padding-top: 2rem;
     padding-bottom: 2rem;
