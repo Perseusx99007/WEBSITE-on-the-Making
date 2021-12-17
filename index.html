@@ -4,173 +4,139 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Component Library</title>
+    <title>home | Perseus</title>
 </head>
+
+<link href="/styles.css" rel="stylesheet" />
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+
 <body>
-
-<!-- CSS way 1, Style Tag 
-
-    <style>
-        body
-        {
-            color: red;
-        }
-    </style> -->
-
-    <!-- CSS way 2, Style Attribute
-    <h1 style="color: red">Perseus's Component Library</h1> -->
-
-    <!-- CSS way 3 :- External Link -->
-
-    <link href="styles.css" rel="stylesheet" />
-    
-    <!-- <h1 id="lib-001">Perseus's Component Library</h1> -->
-    <h1>Perseus's Component Library</h1>
-    <!-- <p class="para">I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p> -->
-    <p>I am attending neog.camp and I want to make a library which would make all my projects look good and consistent.</p>
-
-    
-    <hr>
-
-    <h2>@Typography</h2>
-
-    <h1>This is the Largest Heading.</h1>
-
-    <h2>This is the Second Largest Heading.</h2>
-
-    <h3>This is the Third Largest Heading.</h3>
-
-    <h4>This is the Third Smallest Heading.</h4>
-
-    <h5>This is the Second Smallest Heading.</h5>
-
-    <h6>This is the Smallest Heading.</h6>
-
-    <p>Normal Text. This is free flowing and it'll wrap at the end like a paragraph.</p>
-
-    <p>This paragraph will have a <strong>bold</strong> text.</p>
-
-    <p>This paragraph will have an <i>ITALIC</i> text.</p>
-
-    <!-- <small class="para"></smallclass>This is a relatively smaller text. </small> -->
-    <small></smallclass>This is a relatively smaller text. </small>
-
-    <hr>
-
-    <h2>@Container</h2>
-    
-    <h3>Fluid Container</h3>
-
-    <div class ="container">This is a fluid container and it'll go till the end of the page.</div>
-
-    <h3>Center Container</h3>
-
-    <div class ="container container-center">This is a fluid centered container and it'll go till the specified width.</div>
-
-    <hr>
-
-    <h2>@Links</h2>
-
-    <a class="link link-primary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">PRIMARY LINK</a>
-    
-    <a class="link link-secondary" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">SECONDARY LINK</a>
-
-    <hr>
-
-    <h2>@Lists</h2>
-
-    <h3>Unordered List</h3>
-
-    <p>This list will not have bullets.</p>
-
-    <ul class="list-non-bullet">
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-        <li>Item Four</li>
-        <li>Item Five</li>
-    </ul>
-
-    <h3>Unordered In-Line List</h3>
-
-    <ul class="list-non-bullet">
-        <li class="list-item-inline">In-Line Item One</li>
-        <li class="list-item-inline">In-Line Item Two</li>
-        <li class="list-item-inline">In-Line Item Three</li>
-        <li class="list-item-inline">In-Line Item Four</li>
-        <li class="list-item-inline">In-Line Item Five</li>
-    </ul>
-
-    <h3>Reverse Ordered List</h3>
-
-    <ol reversed>
-        <li>Item One</li>
-        <li>Item Two</li>
-        <li>Item Three</li>
-        <li>Item Four</li>
-        <li>Item Five</li>
-    </ol>
-
-    <hr>
-
-    <h2>@Nav</h2>
 
     <nav class="navigation container">
         <div class="nav-brand">PerseusX99007</div>
 
         <ul class="list-non-bullet nav-pills">
             <li class="list-item-inline">
-                <a class="link link-active" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">HOME</a>
+                <a class="link link-active" href="/">HOME</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">PROJECTS</a>
+                <a class="link" href="/projects.html">PROJECTS</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">ABOUT</a>
+                <a class="link" href="/blogs.html">BLOGS</a>
             </li>
         </ul>
     </nav>
 
-    <hr>
-
-    <h2>Header</h2>
-
     <header class="hero">
-        <img class="hero-image" alt="Main Banner" src="IMAGES/hero.svg" />
+        <img class="hero-image" alt="Main Banner" src="/IMAGES/hero.svg" />
 
         <h1 class="hero-heading">Perseus the <span class="hero-heading-inverted">Full Stack Dev</span></h1>
     </header>
 
-    <hr>
+    <section class="section ow">
+        <div class="container container-center">
+            <h1>Technologies</h1>
+            <p>I'm familiar with HTML5, CSS3, GIT, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+        </div>
+    </section>
 
-    <h2>@Sections</h2>
-
+    <div class="grid-skill">
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/HTML.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>HTML5</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/CSS3.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop</lottie-player></a>
+            <a class="link1" href="/"><div>CSS3</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/JavaScript.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>JavaScript</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/nodeJS.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>Node.JS</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/REACT.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>React.JS</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/GIT.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>Git</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/WEB.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" loop autoplay></lottie-player></a>
+            <a class="link1" href="/"><div>Web Hosting</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/BootStrap.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>BootStrap</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/GOOGLE.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>Smart Search</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/Lottie.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>Lottie</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/PhotoShop.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>Photoshop</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/Python.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" loop hover></lottie-player></a>
+            <a class="link1" href="/"><div>Python</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/Java.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" Autoplay loop></lottie-player></a>
+            <a class="link1" href="/"><div>Java</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/C.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
+            <a class="link1" href="/"><div>C</div></a>
+        </div>
+        <div class="grid-skill-img goog-img">
+            <a href="/"><lottie-player src="/IMAGES/C++.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" autoplay loop></lottie-player></a>
+            <a class="link1" href="/"><div>C++</div></a>
+        </div>
+    </div>
+    
     <section class="section">
         <div class="container container-center">
-        <h1>White Section</h1>
-        <p>This will have white background.</p>
-    </div>
+            <h1>PROJECTS</h1>
+            <p>I like to showcase my projects and thus, you can see my projects hosted online.</p>
+        </div>
     </section>
+
+    <div class="container container-center padding">
+
+    <a class="link link-borderless" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">BROWSE PROJECTS</a>
+
+    </div>
 
     <section class="section ow">
         <div class="container container-center">
-        <h1>Off-White Section</h1>
-        <p>This will have grey background.</p>
+        <h1>BLOGS</h1>
+        <p>I'm also writing some technical and non-technical blogs.I like to document my journey of learning.</p>
     </div>
     </section>
 
-    <hr>
+    <div class="container container-center padding">
 
-    <h2>@Footer</h2>
+    <a class="link-borderless" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">READ BLOGS</a>
+
+    </div>
 
     <footer class="footer">
-        <div class="footer-header">Some small heading inside footer.</div>
+        <div class="footer-header">CONNECT WITH ME</div>
         <ul class="social-links list-non-bullet">
-            <li class="list-item-inline"><a class="link" href="/">Social One.</a></li>
-            <li class="list-item-inline"><a class="link" href="/">Social Two.</a></li>
-            <li class="list-item-inline"><a class="link" href="/">Social Three.</a></li>
-            <li class="list-item-inline"><a class="link" href="/">Social Four.</a></li>
-            <li class="list-item-inline"><a class="link" href="/">Social Five.</a></li>
+            
+            <li class="list-item-inline"><a class="link" href="https://twitter.com/perseusx99007">Twitter</a></li>
+            <li class="list-item-inline"><a class="link" href="https://github.com/Perseusx99007">Git-hub</a></li>
+            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ratul-saha-0129641b2/">LinkedIn</a></li>
         </ul>
     </footer>
 

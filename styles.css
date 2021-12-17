@@ -63,12 +63,54 @@ hr
     margin: auto;
 }
 
+/**Padding**/
+
+.padding
+{
+    padding-top: 1rem;
+    padding-bottom: 5rem;
+}
+
+.padding2
+{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.padding3
+{
+    padding-left: 0rem;
+}
+
+.padding4
+{
+    padding-left: 1rem;
+}
+
+.margin-left
+{
+    margin-left: 10px;
+}
+
 /**LINKS**/
+
+.link1
+{
+    text-decoration: none;
+    color: black;
+}
 
 .link
 {
     text-decoration: none;
-    padding: 0.5rem 1rem;     /**Gives padding 0.5 to top and bottom and padding 1rem to left and right**/
+    padding: 0.5rem 1rem;    /**Gives padding 0.5 to top and bottom and padding 1rem to left and right**/
+}
+
+.link-borderless
+{
+    text-decoration: none;
+    padding: 0rem 1rem 0rem 0rem;    /**Gives padding 0.5 to top and bottom and padding 1rem to left and right**/
+    color: var(--primary-color);
 }
 
 .link-primary
@@ -138,7 +180,7 @@ hr
 
 .hero .hero-image
 {
-    max-width: 350px;
+    max-width: 500px;
     display: block;
     margin: auto;
 }
@@ -196,4 +238,30 @@ hr
 .footer-header
 {
     padding-bottom: 5rem;
+    font-size: 2rem;
+}
+
+.lotte
+{
+    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_zsdqvxou.json"  background="transparent"  speed="1"  style="width: 5rem; height: 5rem;" hover loop  autoplay>
+}
+
+.grid-skill-img 
+{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 0.5rem;
+}
+
+.grid-skill {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    /* gap: 0.7rem; */
+    justify-content: center;
+    margin: auto;
+    max-width: 700px;
+    width: 100%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
