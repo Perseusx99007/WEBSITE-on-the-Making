@@ -688,5 +688,10 @@ body
         font-size: 0.8rem;
     }
 
+    .main-banner
+    {
+        color: var(--main-white);
+    }
+
 }
 
