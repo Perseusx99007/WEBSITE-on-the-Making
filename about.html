@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>home | Perseus</title>
+</head>
+
+<link href="/styles.css" rel="stylesheet" />
+<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+<body>
+
+    <video class="video" autoplay muted loop muted >
+        <source src="/ASSETS/sifi.mp4" type="video/mp4">
+    </video>
+    <header class="primary-header flex">
+        <div>
+            <div class="font logo"><a class="main-colour decor" href="/index.html">AUDITORRE</a></div>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn-brgr"></div>
+        </div>
+        
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active">
+                    <a href="/index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="/projects.html">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="/blogs.html">BLOGS</a>
+                </li>
+                <li>
+                    <a href="/about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <header>
+        <h1 class="main-banner font" data-aos="fade-up">ABOUT<br>ME</h1>
+    </header>
+
+    <div class="padding-min"></div>
+
+    <section class="bio" data-aos="fade-up">
+        <div class="main-colour">
+            <div class="font-h2-content">Hi!! I'm Perseus, an aspiring Full STack Developer based in Kolkata India. I have a serious passion for coding, animations, user experience and complex AI algorithms.</div>
+        </div>
+    </section>
+
+
+    <div class="padding"></div>
+
+    <footer class="footer">
+        <div class="footer-header">CONNECT WITH ME</div>
+
+        <div class="grid-skill2">
+            <div class="grid-skill-img2">
+                <a href="https://github.com/Perseusx99007"><lottie-player class="img2" src="/ASSETS/GithuB.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href="https://www.linkedin.com/in/perseus-auditorre-0129641b2/"><lottie-player class="img2" src="/ASSETS/LinkedIn.json"  background="transparent"  speed="1" hover loop</lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href="https://twitter.com/perseusx99007"><lottie-player class="img2" src="/ASSETS/Twitter.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href="mailto: perseusx99007.com"><lottie-player class="img2" src="/ASSETS/GMail.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href=“https://discordapp.com/users/265792394090381313”><lottie-player class="img2" src="/ASSETS/Discord.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href="https://www.facebook.com/profile.php?id=100008193811362"><lottie-player class="img2" src="/ASSETS/Facebook.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
+            </div>
+            <div class="grid-skill-img2">
+                <a href="https://t.me/Perseusx99007"><lottie-player class="img2" src="/ASSETS/Telegram.json"  background="transparent"  speed="1" loop hover></lottie-player></a>
+            </div>
+        </div>
+        <div class="padding2">© Created by : Perseus Auditorre</div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 100,
+                duration: 1000,
+            }
+        );
+    </script>
+    <script src="menu-btn.js"></script>
+</body>
+</html>

@@ -9,172 +9,174 @@
 
 <link href="/styles.css" rel="stylesheet" />
 <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
 <body>
 
-    <nav class="navigation container">
-        <div class="nav-brand">PerseusX99007</div>
-
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a class="link link-active" href="/">HOME</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/projects.html">PROJECTS</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="/blogs.html">BLOGS</a>
-            </li>
-        </ul>
-    </nav>
-
-    <header class="hero">
-        <img class="hero-image" alt="Main Banner" src="/IMAGES/hero.svg" />
-
-        <h1 class="hero-heading">Perseus the <span class="hero-heading-inverted">Full Stack Dev</span></h1>
+    <video class="video" autoplay muted loop muted >
+        <source src="/ASSETS/sifi.mp4" type="video/mp4">
+    </video>
+    <header class="primary-header flex">
+        <div>
+            <div class="font logo"><a class="main-colour decor" href="/index.html">AUDITORRE</a></div>
+        </div>
+        <div class="menu-btn">
+            <div class="menu-btn-brgr"></div>
+        </div>
+        
+        <nav>
+            <ul id="primary-navigation" data-visible="false" class="primary-navigation flex">
+                <li class="active">
+                    <a href="/index.html">HOME</a>
+                </li>
+                <li>
+                    <a href="/projects.html">PROJECTS</a>
+                </li>
+                <li>
+                    <a href="/blogs.html">BLOGS</a>
+                </li>
+                <li>
+                    <a href="/about.html">ABOUT</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    
+    <header>
+        <h1 class="main-banner font" data-aos="fade-up">PERSEUS<br>AUDITORRE</h1>
     </header>
 
-    <div class="padding5"></div>
+    <section class="section-spacing" data-aos="fade-left">
+        <img class="profile-pic" src="/ASSETS/PIC.jpg" alt="PROFILE PICTURE">
+    </section>
 
-    <section class="section">
-        <div class="container container-center">
-            <h1 class="heading1">Technologies</h1>
-            <p class="heading2">I'm familiar with HTML5, CSS3, GIT, JavaScript, NodeJS, ReactJS and Web Hosting.</p>
+    <section class="section-spacing2" data-aos="fade-up">
+        <div class="main-colour">
+            <h1 class="font-h2"><span class="font">W</span>ho is this guy?</h1>
+            <div class="section-content-spacing font-h2-content">Hi!! I'm Perseus, an aspiring Full STack Developer based in Kolkata India. I have a serious passion for coding, animations, user experience and complex AI algorithms.</div>
         </div>
     </section>
 
-    <div class="grid-skill">
+    <section class="section-spacing3" data-aos="fade-up">
+        <div class="main-colour">
+            <h1 class="font-h2"><span class="font">M</span>y skills</h1>
+        </div>
+    </section>
+
+    <div class="grid-skill"data-aos="fade-up">
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/HTML.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>HTML5</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/HTML.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/CSS3.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop</lottie-player></a>
-            <a class="link1" href="/"><div>CSS3</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/CSS3.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/JavaScript.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>JavaScript</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/JavaScript.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/nodeJS.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>Node.JS</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/nodeJS.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/REACT.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>React.JS</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/REACT.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/GIT.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>Git</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/GIT.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/WEB.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" loop autoplay></lottie-player></a>
-            <a class="link1" href="/"><div>Web Hosting</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/WEB.json"  background="transparent"  speed="1" loop autoplay></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/BootStrap.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>BootStrap</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/BootStrap.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/GOOGLE.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>Smart Search</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/GOOGLE.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/Lottie.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>Lottie</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/Lottie.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/Python.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" loop hover></lottie-player></a>
-            <a class="link1" href="/"><div>Python</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/Python.json"  background="transparent"  speed="1" loop hover></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/Java.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" Autoplay loop></lottie-player></a>
-            <a class="link1" href="/"><div>Java</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/Java.json"  background="transparent"  speed="1" Autoplay loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/C.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>C</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/C.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/C++.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" autoplay loop></lottie-player></a>
-            <a class="link1" href="/"><div>C++</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/C++.json"  background="transparent"  speed="1" autoplay loop></lottie-player></a>
         </div>
         <div class="grid-skill-img">
-            <a href="/"><lottie-player src="/IMAGES/PhotoShop.json"  background="transparent"  speed="1"  style="width: 7rem; height: 7rem;" hover loop></lottie-player></a>
-            <a class="link1" href="/"><div>Photoshop</div></a>
+            <a href="/"><lottie-player class="img" src="/ASSETS/PhotoShop.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
         </div>
     </div>
 
-    <div class="padding5"></div>
+    <section class="project" data-aos="fade-right">
+        <div class="main-colour">
+            <h1 class="font-h2"><span class="font">PROJECTS</span></h1>
+            <div class="project-content font-h2-content">I like to showcase my projects and thus, you can see my projects hosted online.</div>
+        </div>
+    </section>
+
+    <div class="project-link" data-aos="fade-right">
+
+        <a class="main-colour .link-style" href="/">BROWSE PROJECTS</a>
     
-    <section class="section">
-        <div class="container container-center">
-            <h1 class="heading1">PROJECTS</h1>
-            <p class="heading2">I like to showcase my projects and thus, you can see my projects hosted online.</p>
+    </div>
+
+    <section class="blog" data-aos="fade-up">
+        <div class="main-colour">
+            <h1 class="font-h2"><span class="font">BLOGS</span></h1>
+            <div class="blog-content font-h2-content">I'm also writing some technical and non-technical blogs.I like to document my journey of learning.</div>
         </div>
     </section>
 
-    <div class="container container-center padding">
+    <div class="blog-link" data-aos="fade-up">
 
-    <a class="link link-borderless" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">BROWSE PROJECTS</a>
-
+        <a class="main-colour .link-style" href="/">READ BLOGSS</a>
+    
     </div>
 
-    <div class="padding5"></div>
-
-    <section class="section">
-        <div class="container container-center">
-        <h1 class="heading1">BLOGS</h1>
-        <p class="heading2">I'm also writing some technical and non-technical blogs.I like to document my journey of learning.</p>
-    </div>
-    </section>
-
-    <div class="container container-center padding">
-
-    <a class="link-borderless" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">READ BLOGS</a>
-
-    </div>
-
-    <div class="padding6"></div>
+    <div class="padding"></div>
 
     <footer class="footer">
         <div class="footer-header">CONNECT WITH ME</div>
 
         <div class="grid-skill2">
-            <div class="grid-skill-img">
-                <a href="https://github.com/Perseusx99007"><lottie-player src="/IMAGES/GithuB.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="https://github.com/Perseusx99007"><lottie-player class="img2" src="/ASSETS/GithuB.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href="https://www.linkedin.com/in/perseus-auditorre-0129641b2/"><lottie-player src="/IMAGES/LinkedIn.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop</lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="https://www.linkedin.com/in/perseus-auditorre-0129641b2/"><lottie-player class="img2" src="/ASSETS/LinkedIn.json"  background="transparent"  speed="1" hover loop</lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href="https://twitter.com/perseusx99007"><lottie-player src="/IMAGES/Twitter.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="https://twitter.com/perseusx99007"><lottie-player class="img2" src="/ASSETS/Twitter.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href="mailto: perseusx99007.com"><lottie-player src="/IMAGES/GMail.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="mailto: perseusx99007.com"><lottie-player class="img2" src="/ASSETS/GMail.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href=“https://discordapp.com/users/265792394090381313”><lottie-player src="/IMAGES/Discord.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href=“https://discordapp.com/users/265792394090381313”><lottie-player class="img2" src="/ASSETS/Discord.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href="https://www.facebook.com/profile.php?id=100008193811362"><lottie-player src="/IMAGES/Facebook.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="https://www.facebook.com/profile.php?id=100008193811362"><lottie-player class="img2" src="/ASSETS/Facebook.json"  background="transparent"  speed="1" hover loop></lottie-player></a>
             </div>
-            <div class="grid-skill-img">
-                <a href="https://t.me/Perseusx99007"><lottie-player src="/IMAGES/Telegram.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" loop hover></lottie-player></a>
+            <div class="grid-skill-img2">
+                <a href="https://t.me/Perseusx99007"><lottie-player class="img2" src="/ASSETS/Telegram.json"  background="transparent"  speed="1" loop hover></lottie-player></a>
             </div>
         </div>
-        
-        <!-- <ul class="social-links list-non-bullet">
-            
-            <li class="list-item-inline"><a class="link" href="/"><lottie-player src="/IMAGES/H.json"  background="transparent"  speed="1"  style="width: 2rem; height: 2rem;" hover loop></lottie-player></a></li>
-            <li class="list-item-inline"><a class="link" href="https://twitter.com/perseusx99007">Twitter</a></li>
-            <li class="list-item-inline"><a class="link" href="https://github.com/Perseusx99007">Git-hub</a></li>
-            <li class="list-item-inline"><a class="link" href="https://www.linkedin.com/in/ratul-saha-0129641b2/">LinkedIn</a></li>
-        </ul> -->
-
-        <div class="padding7">© Created by : Perseus Auditorre</div>
+        <div class="padding2">© Created by : Perseus Auditorre</div>
     </footer>
 
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init(
+            {
+                offset: 100,
+                duration: 1000,
+            }
+        );
+    </script>
+    <script src="menu-btn.js"></script>
 </body>
 </html>
