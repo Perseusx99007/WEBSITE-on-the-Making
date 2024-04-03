@@ -112,6 +112,30 @@ body
     }
 }
 
+.image 
+{
+    position: fixed;
+    z-index: -100;
+}
+
+@media (min-aspect-ratio: 16/9)
+{
+    .image 
+    {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-aspect-ratio: 16/9)
+{
+    .image 
+    {
+        width: auto;
+        height: 100%;
+    }
+}
+
 .main-colour
 {
     color: var(--main-white);
